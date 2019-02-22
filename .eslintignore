@@ -1,0 +1,6 @@
+## Ignore the following when running eslint
+
+# Dependency directories
+/node_modules
+
+
