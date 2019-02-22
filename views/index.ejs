@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
+    <%- include('components/header.ejs', {title: title}) %>
   <body>
-    <h1><%= title %></h1>
+  <%- include('components/navbar.ejs') %>
     <p>Welcome to <%= title %></p>
+    <%- include('components/footer.ejs') %>
   </body>
 </html>
