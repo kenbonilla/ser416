@@ -1,43 +1,43 @@
-
 <div class="container-fluid">
-<!-- modified from example https://getbootstrap.com/docs/4.1/components/navbar/ -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/">Best Community Service</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" 
-  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-  aria-expanded="false" aria-label="Toggle navigation">
+  <!-- modified from example https://getbootstrap.com/docs/4.1/components/navbar/ -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Best Community Service</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="donate">Donate</a>
-      <li class="nav-item">
-        <a class="nav-link" href="volunteer">Volunteer</a>
-      </li>
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/donate">Donate</a>
+        <li class="nav-item">
+          <a class="nav-link" href="/volunteer">Volunteer</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             Services
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Equipment Rentals</a>
-            <a class="dropdown-item" href="#">Room Rentals</a>
+            <a class="dropdown-item" href="/rentals/equipment">Equipment Rentals</a>
+            <a class="dropdown-item" href="/rentals/rooms">Room Rentals</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Shuttle Service</a>
-            <a class="dropdown-item" href="#">Catering</a>
+            <a class="dropdown-item" href="/services/shuttle">Shuttle Service</a>
+            <a class="dropdown-item" href="/services/catering">Catering</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/education">Continuing Education</a>
           </div>
         </li>
-      <li class="nav-item">
-          <a class="nav-link" href="events">Upcoming Events</a>
+        <li class="nav-item">
+          <a class="nav-link" href="/events">Upcoming Events</a>
         </li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li>
-        <button type="button" class="btn btn-light ">Sign In</button>
-      </li>
-    </ul>
-  </div>
-</nav>
-
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <button type="button" class="btn btn-light ">Sign In</button>
+        </li>
+      </ul>
+    </div>
+  </nav>

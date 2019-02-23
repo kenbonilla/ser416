@@ -1,7 +1,7 @@
 body {
   padding: 0em;
   margin: 0em;
-  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 24px "Quattrocento Sans", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -16,11 +16,27 @@ a {
   padding-top: 3em;
 }
 
+.pad-top-sm {
+  padding-top: 1.2em;
+}
+
 .pad-lg {
-  padding: 5em;
+  padding: 4em;
   padding-top: 0em;
 }
 
-.pad-sm {
+.pad-xs {
   padding: 0.3em;
+}
+
+.pad-sm {
+  padding: 0.7em;
+}
+
+.pad-btm-md {
+  padding-bottom: 2em;
+}
+
+.hr-white {
+  border-top: 0.1em solid whitesmoke;
 }
