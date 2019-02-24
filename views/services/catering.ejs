@@ -14,6 +14,24 @@
     <div class="col-sm-1"></div>
   </div>
 
+  <div class="row">
+      <div class="form-group col-md-6 ">
+        <label for="noOfGuests">How Many People?</label>
+        <input type="number" class="form-control" id="noOfGuests" placeholder="10">
+      </div>
+      <div class="form-group col-md-6">
+          <label for="meal">Meal Options</label>
+          <select class="form-control" id="meal">
+            <option>Mexican</option>
+            <option>Chicken</option>
+            <option>Vegetarian</option>
+            <option>Vegan</option>
+            <option>Pizza</option>
+          </select>
+        </div>
+       
+    </div>
+
   <%- include('../components/select-date.ejs') %>
 
 
