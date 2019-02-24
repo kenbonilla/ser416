@@ -11,6 +11,7 @@ const rentalsRouter = require('./routes/rentals');
 const volunteerRouter = require('./routes/volunteer');
 const eventsRouter = require('./routes/events');
 const servicesRouter = require('./routes/services');
+const paymentRouter = require('./routes/payment');
 
 const app = express();
 
@@ -31,6 +32,7 @@ app.use('/rentals', rentalsRouter);
 app.use('/volunteer', volunteerRouter);
 app.use('/events', eventsRouter);
 app.use('/services', servicesRouter);
+app.use('/payment', paymentRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

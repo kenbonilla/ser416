@@ -7,11 +7,11 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/equipment', function(req, res, next) {
-  res.render('equipment', {title: 'Best Community Service'});
+  res.render('rentals/equipment', {title: 'Best Community Service'});
 });
 
 router.get('/rooms', function(req, res, next) {
-  res.render('rooms', {title: 'Best Community Service'});
+  res.render('rentals/rooms', {title: 'Best Community Service'});
 });
 
 module.exports = router;
