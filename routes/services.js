@@ -21,6 +21,11 @@ router.get('/education', function(req, res, next) {
   res.render('services/education', {title: 'Best Community Service'});
 });
 
+/* GET class description page. */
+router.get('/class', function(req, res, next) {
+  res.render('services/class', {title: 'Best Community Service'});
+});
+
 /* GET search results page. */
 router.get('/search', function(req, res, next) {
   res.render('services/search', {title: 'Best Community Service'});

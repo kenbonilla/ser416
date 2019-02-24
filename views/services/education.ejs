@@ -1,11 +1,12 @@
 <!-- Example of sub view depth level one -->
 <!DOCTYPE html>
 <html>
-  <%- include('../components/header.ejs', {title: title}) %>
-  <body>
-  
+<%- include('../components/header.ejs', {title: title}) %>
+
+<body>
+
   <%- include('../components/navbar.ejs') %>
-  
+
   <div class="row div-pad-md">
     <div class="col-sm-1"></div>
     <div class="col-sm-10 text-center">
@@ -14,8 +15,38 @@
     <div class="col-sm-1"></div>
   </div>
 
-  <%- include('../components/footer.ejs') %>
+  <%- include('../components/widecard.ejs', 
+    {
+      cardtitle: 'Underwater Basket Weaving',
+      btn1: 'Register',
+      btn2: 'Learn more',
+      btn1go: '/services/payment',
+      btn2go: '/services/class'
+    }) 
+  %>
+  <%- include('../components/widecard.ejs', 
+    {
+      cardtitle: 'How To Use Fancy Forks',
+      btn1: 'Register',
+      btn2: 'Learn more',
+      btn1go: '/services/payment',
+      btn2go: '/services/class'
+    }) 
+  %>
+  <%- include('../components/widecard.ejs', 
+  {
+    cardtitle: 'Is It Pronounced Wind Or Wind?',
+    btn1: 'Register',
+    btn2: 'Learn more',
+    btn1go: '/services/payment',
+    btn2go: '/services/class'
+  }) 
+  %>
 
   
-  </body>
+  <%- include('../components/footer.ejs') %>
+
+
+</body>
+
 </html>
