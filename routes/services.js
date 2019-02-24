@@ -14,4 +14,12 @@ router.get('/catering', function(req, res, next) {
   res.render('services/catering', {title: 'Best Community Service'});
 });
 
+router.get('/education', function(req, res, next) {
+  res.render('services/education', {title: 'Best Community Service'});
+});
+
+router.get('/search', function(req, res, next) {
+  res.render('services/search', {title: 'Best Community Service'});
+});
+
 module.exports = router;
