@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <%- include('../components/header.ejs', {title: title}) %>
-  <body>
-  
+<%- include('../components/header.ejs', {title: title}) %>
+
+<body>
+
   <%- include('../components/navbar.ejs') %>
-  
+
   <div class="row div-pad-md">
     <div class="col-sm-1"></div>
     <div class="col-sm-10 text-center">
-      <h2>Equipment</h2>
+      <h2> Reserve Your Equipment </h2>
     </div>
     <div class="col-sm-1"></div>
   </div>
 
+  <div class="row">
+    <div class="col-md">
+
+    </div>
+    <div class="col-md">
+      <div class="form-group">
+        <label for="eqp">Available Equipment</label>
+        <select class="form-control" name="eqp" id="eqp">
+          <option>Basketball</option>
+          <option>Light Set</option>
+          <option>Cool Thing</option>
+          <option>Cool Thing</option>
+          <option>Cool Thing</option>
+          <option>Cool Thing</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-md">
+
+    </div>
+  </div>
+
+
+
+
+  <%- include('../components/select-date.ejs') %>
+
+
   <%- include('../components/footer.ejs') %>
 
-  
-  </body>
+
+</body>
+
 </html>
