@@ -22,4 +22,7 @@ router.get('/search', function(req, res, next) {
   res.render('services/search', {title: 'Best Community Service'});
 });
 
+router.get('/payment', function(req, res, next) {
+  res.render('services/payment', {title: 'Best Community Service'});
+});
 module.exports = router;
