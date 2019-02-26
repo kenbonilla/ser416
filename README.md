@@ -19,7 +19,9 @@ Open your browser and navigate to `http://localhost:3000`
 
 ---
 
-##### Project description
+### Project description
+---
+##### Technology stack
 
 The project is built on the following technology stack:
 [Node.js](https://nodejs.org/en/)
@@ -29,6 +31,8 @@ The project is built on the following technology stack:
 [Font Awesome](https://fontawesome.com/)
 [ESLint](https://eslint.org/)
 
+---
+##### Project structure
 ```
 .eslintrc.json  -- define rules for linter
 app.js          -- The node server
