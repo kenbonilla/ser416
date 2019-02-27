@@ -24,11 +24,11 @@ Open your browser and navigate to `http://localhost:3000`
 ##### Technology stack
 
 The project is built on the following technology stack:
-[Node.js](https://nodejs.org/en/)
-[Express Generator](https://expressjs.com/)
-[EJS](https://ejs.co/)
-[Bootstrap](https://getbootstrap.com/)
-[Font Awesome](https://fontawesome.com/)
+[Node.js](https://nodejs.org/en/),
+[Express Generator](https://expressjs.com/),
+[EJS](https://ejs.co/),
+[Bootstrap](https://getbootstrap.com/),
+[Font Awesome](https://fontawesome.com/),
 [ESLint](https://eslint.org/)
 
 ---
